@@ -1,9 +1,25 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Ame",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/AmeItem.java",
+          "src/main/resources/assets/test/models/item/ame.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.test.ame": "Ame"
+    }
   },
   "foldersRoot": {
     "name": "~",
