@@ -279,6 +279,21 @@
           "src/main/java/net/mcreator/test/client/renderer/TestRenderer.java"
         ]
       }
+    },
+    {
+      "name": "Burger",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/BurgerItem.java",
+          "src/main/resources/assets/test/models/item/burger.json"
+        ]
+      },
+      "path": "~/Food"
     }
   ],
   "variable_elements": [],
@@ -295,6 +310,7 @@
   "language_map": {
     "en_us": {
       "advancements.gems.title": "Gem",
+      "item.test.burger": "Burger",
       "item.test.ge_marmor_armor_helmet": "GEMarmor Helmet",
       "item.test.ame": "Ame",
       "subtitles.onepiece": "One",
@@ -321,6 +337,10 @@
     "children": [
       {
         "name": "progres",
+        "children": []
+      },
+      {
+        "name": "Food",
         "children": []
       }
     ]
