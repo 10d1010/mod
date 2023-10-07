@@ -503,6 +503,35 @@
         ]
       },
       "path": "~/boss"
+    },
+    {
+      "name": "Ether",
+      "type": "dimension",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ether",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/dimension_type/ether.json",
+          "src/main/resources/data/test/dimension/ether.json",
+          "src/main/java/net/mcreator/test/world/dimension/EtherDimension.java"
+        ]
+      }
+    },
+    {
+      "name": "Dimciel",
+      "type": "achievement",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimciel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/advancements/dimciel.json"
+        ]
+      },
+      "path": "~/progres"
     }
   ],
   "variable_elements": [
@@ -540,7 +569,9 @@
       "biome.test.oceant": "Oceant",
       "advancements.gems.descr": "découverte d\u0027une gem",
       "advancements.cutter.title": "Cutter",
-      "advancements.cutter.descr": "vers la pierre",
+      "advancements.dimciel.descr": "entrée dans éther",
+      "advancements.cutter.descr": "craft un Cutter",
+      "advancements.dimciel.title": "éther",
       "item.test.burger": "Burger",
       "item.test.ge_marmor_armor_helmet": "GEMarmor Helmet",
       "block.test.soudeur": "Soudeur",

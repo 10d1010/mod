@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Cutter",
-    "achievementDescription": "vers la pierre",
+    "achievementDescription": "craft un Cutter",
     "achievementIcon": {
       "value": "CUSTOM:Cutston"
     },
