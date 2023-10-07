@@ -127,6 +127,116 @@
           "src/main/resources/data/test/recipes/cutstoncraft.json"
         ]
       }
+    },
+    {
+      "name": "GEM",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/models/item/gem.json",
+          "src/main/java/net/mcreator/test/item/GEMItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Gembrute",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gembrute",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/GembruteItem.java",
+          "src/main/resources/assets/test/models/item/gembrute.json"
+        ]
+      }
+    },
+    {
+      "name": "Fontegem",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fontegem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipes/fontegem.json"
+        ]
+      }
+    },
+    {
+      "name": "GEMarmorArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ge_marmor_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/models/item/ge_marmor_armor_helmet.json",
+          "src/main/resources/assets/test/models/item/ge_marmor_armor_leggings.json",
+          "src/main/java/net/mcreator/test/item/GEMarmorArmorItem.java",
+          "src/main/resources/assets/test/models/item/ge_marmor_armor_boots.json",
+          "src/main/resources/assets/test/models/item/ge_marmor_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "GEMarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ge_marmor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipes/ge_marmor_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GEMarmorArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ge_marmor_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipes/ge_marmor_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GEMarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ge_marmor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipes/ge_marmor_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GEMarmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ge_marmor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipes/ge_marmor_armor_boots_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -142,15 +252,21 @@
   ],
   "language_map": {
     "en_us": {
-      "item.test.aqua": "Aqua Portal Igniter",
-      "entity.minecraft.villager.test.chamanv": "Chaman",
-      "biome.test.oceant": "Oceant",
+      "item.test.ge_marmor_armor_helmet": "GEMarmor Helmet",
       "item.test.ame": "Ame",
       "subtitles.onepiece": "One",
       "advancements.chaman.title": "Chaman",
+      "item.test.ge_marmor_armor_boots": "GEMarmor Boots",
       "item.test.cutston": "Cutston",
+      "item.test.gembrute": "Gembrute",
       "block.test.blockaqua": "Blockaqua",
-      "advancements.chaman.descr": "Une âme récolter "
+      "item.test.ge_marmor_armor_leggings": "GEMarmor Leggings",
+      "advancements.chaman.descr": "Une âme récolter ",
+      "item.test.aqua": "Aqua Portal Igniter",
+      "entity.minecraft.villager.test.chamanv": "Chaman",
+      "biome.test.oceant": "Oceant",
+      "item.test.gem": "GEM",
+      "item.test.ge_marmor_armor_chestplate": "GEMarmor Chestplate"
     }
   },
   "foldersRoot": {

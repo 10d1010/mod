@@ -1,11 +1,17 @@
 {
-  "item.test.aqua": "Aqua Portal Igniter",
-  "entity.minecraft.villager.test.chamanv": "Chaman",
-  "biome.test.oceant": "Oceant",
+  "item.test.ge_marmor_armor_helmet": "GEMarmor Helmet",
   "item.test.ame": "Ame",
   "subtitles.onepiece": "One",
   "advancements.chaman.title": "Chaman",
+  "item.test.ge_marmor_armor_boots": "GEMarmor Boots",
   "item.test.cutston": "Cutston",
+  "item.test.gembrute": "Gembrute",
   "block.test.blockaqua": "Blockaqua",
-  "advancements.chaman.descr": "Une âme récolter "
+  "item.test.ge_marmor_armor_leggings": "GEMarmor Leggings",
+  "advancements.chaman.descr": "Une âme récolter ",
+  "item.test.aqua": "Aqua Portal Igniter",
+  "entity.minecraft.villager.test.chamanv": "Chaman",
+  "biome.test.oceant": "Oceant",
+  "item.test.gem": "GEM",
+  "item.test.ge_marmor_armor_chestplate": "GEMarmor Chestplate"
 }

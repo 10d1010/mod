@@ -15,34 +15,34 @@
         "value": ""
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.STONE#5"
+        "value": "CUSTOM:GEM"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:Cutston"
       },
       {
-        "value": "Blocks.STONE#5"
+        "value": "CUSTOM:GEM"
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:GEM"
       },
       {
-        "value": "Items.EMERALD"
+        "value": "Items.IRON_BOOTS"
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:GEM"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Cutston"
+      "value": "CUSTOM:GEMarmorArmor.boots"
     },
-    "name": "cutstoncraft",
+    "name": "ge_marmor_armor_boots_recipe",
     "namespace": "mod"
   }
 }

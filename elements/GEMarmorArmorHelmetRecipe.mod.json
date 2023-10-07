@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
+        "value": "CUSTOM:GEM"
+      },
+      {
+        "value": "CUSTOM:GEM"
+      },
+      {
+        "value": "CUSTOM:GEM"
+      },
+      {
+        "value": "CUSTOM:GEM"
+      },
+      {
+        "value": "CUSTOM:Cutston"
+      },
+      {
+        "value": "CUSTOM:GEM"
+      },
+      {
         "value": ""
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "Items.IRON_HELMET"
       },
       {
         "value": ""
-      },
-      {
-        "value": "Blocks.STONE#5"
-      },
-      {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": "Blocks.STONE#5"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "Items.EMERALD"
-      },
-      {
-        "value": "Items.STICK"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Cutston"
+      "value": "CUSTOM:GEMarmorArmor.helmet"
     },
-    "name": "cutstoncraft",
+    "name": "ge_marmor_armor_helmet_recipe",
     "namespace": "mod"
   }
 }

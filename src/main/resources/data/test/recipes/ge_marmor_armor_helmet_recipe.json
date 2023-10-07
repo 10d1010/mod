@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "test:gem"
+    },
+    "1": {
+      "item": "test:gem"
+    },
+    "2": {
+      "item": "test:gem"
+    },
+    "3": {
+      "item": "test:gem"
+    },
+    "4": {
+      "item": "test:cutston"
+    },
+    "5": {
+      "item": "test:gem"
+    },
+    "7": {
+      "item": "minecraft:iron_helmet"
+    }
+  },
+  "result": {
+    "item": "test:ge_marmor_armor_helmet",
+    "count": 1
+  }
+}

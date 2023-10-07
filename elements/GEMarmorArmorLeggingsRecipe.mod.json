@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:GEM"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:GEM"
       },
       {
-        "value": ""
+        "value": "CUSTOM:GEM"
       },
       {
-        "value": "Blocks.STONE#5"
+        "value": "CUSTOM:GEM"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "Items.IRON_LEGGINGS"
       },
       {
-        "value": "Blocks.STONE#5"
+        "value": "CUSTOM:GEM"
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:GEM"
       },
       {
-        "value": "Items.EMERALD"
+        "value": "CUSTOM:Cutston"
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:GEM"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Cutston"
+      "value": "CUSTOM:GEMarmorArmor.legs"
     },
-    "name": "cutstoncraft",
+    "name": "ge_marmor_armor_leggings_recipe",
     "namespace": "mod"
   }
 }

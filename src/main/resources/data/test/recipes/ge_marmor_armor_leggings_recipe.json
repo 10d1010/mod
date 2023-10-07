@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "test:gem"
+    },
+    "1": {
+      "item": "test:gem"
+    },
+    "2": {
+      "item": "test:gem"
+    },
+    "3": {
+      "item": "test:gem"
+    },
+    "4": {
+      "item": "minecraft:iron_leggings"
+    },
+    "5": {
+      "item": "test:gem"
+    },
+    "6": {
+      "item": "test:gem"
+    },
+    "7": {
+      "item": "test:cutston"
+    },
+    "8": {
+      "item": "test:gem"
+    }
+  },
+  "result": {
+    "item": "test:ge_marmor_armor_leggings",
+    "count": 1
+  }
+}
