@@ -100,6 +100,33 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Cutston",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cutston",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/CutstonItem.java",
+          "src/main/resources/assets/test/models/item/cutston.json"
+        ]
+      }
+    },
+    {
+      "name": "Cutstoncraft",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cutstoncraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipes/cutstoncraft.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -111,6 +138,7 @@
       "biome.test.oceant": "Oceant",
       "item.test.ame": "Ame",
       "advancements.chaman.title": "Chaman",
+      "item.test.cutston": "Cutston",
       "block.test.blockaqua": "Blockaqua",
       "advancements.chaman.descr": "Une âme récolter "
     }

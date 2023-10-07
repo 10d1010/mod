@@ -32,6 +32,7 @@ public class TestModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(TestModItems.AQUA.get());
+			tabData.accept(TestModItems.CUTSTON.get());
 		}
 	}
 }
