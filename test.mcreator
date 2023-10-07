@@ -294,6 +294,20 @@
         ]
       },
       "path": "~/Food"
+    },
+    {
+      "name": "Enderfish",
+      "type": "gui",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderfish",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/world/inventory/EnderfishMenu.java",
+          "src/main/java/net/mcreator/test/client/gui/EnderfishScreen.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],

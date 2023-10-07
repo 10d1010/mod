@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.test.init.TestModVillagerProfessions;
 import net.mcreator.test.init.TestModTabs;
 import net.mcreator.test.init.TestModSounds;
+import net.mcreator.test.init.TestModMenus;
 import net.mcreator.test.init.TestModItems;
 import net.mcreator.test.init.TestModEntities;
 import net.mcreator.test.init.TestModBlocks;
@@ -62,7 +63,7 @@ public class TestMod {
 		TestModTabs.REGISTRY.register(bus);
 
 		TestModVillagerProfessions.PROFESSIONS.register(bus);
-
+		TestModMenus.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
