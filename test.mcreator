@@ -265,6 +265,20 @@
         ]
       },
       "path": "~/progres"
+    },
+    {
+      "name": "Burger",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/models/item/burger.json",
+          "src/main/java/net/mcreator/test/item/BurgerItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -281,6 +295,7 @@
   "language_map": {
     "en_us": {
       "advancements.gems.title": "Gem",
+      "item.test.burger": "Burger",
       "item.test.ge_marmor_armor_helmet": "GEMarmor Helmet",
       "item.test.ame": "Ame",
       "subtitles.onepiece": "One",
