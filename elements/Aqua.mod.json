@@ -7,9 +7,9 @@
         "value": "CUSTOM:Oceant"
       }
     ],
-    "worldGenType": "Normal world gen",
+    "worldGenType": "Nether like gen",
     "mainFillerBlock": {
-      "value": "Blocks.FLOWING_WATER"
+      "value": "Blocks.PACKED_ICE"
     },
     "fluidBlock": {
       "value": "Blocks.WATER"
