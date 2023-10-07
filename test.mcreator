@@ -251,6 +251,19 @@
         ]
       },
       "path": "~/progres"
+    },
+    {
+      "name": "Youpi",
+      "type": "achievement",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "youpi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/advancements/youpi.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -267,6 +280,7 @@
   "language_map": {
     "en_us": {
       "item.test.ge_marmor_armor_helmet": "GEMarmor Helmet",
+      "advancements.youpi.descr": "youpi",
       "item.test.ame": "Ame",
       "subtitles.onepiece": "One",
       "advancements.chaman.title": "Chaman",
@@ -278,6 +292,7 @@
       "advancements.chaman.descr": "Une âme récolter ",
       "item.test.aqua": "Aqua Portal Igniter",
       "entity.minecraft.villager.test.chamanv": "Chaman",
+      "advancements.youpi.title": "Youpi",
       "biome.test.oceant": "Oceant",
       "item.test.gem": "GEM",
       "item.test.ge_marmor_armor_chestplate": "GEMarmor Chestplate",
