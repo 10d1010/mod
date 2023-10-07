@@ -251,6 +251,19 @@
         ]
       },
       "path": "~/progres"
+    },
+    {
+      "name": "Dede",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dede",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipes/dede.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
