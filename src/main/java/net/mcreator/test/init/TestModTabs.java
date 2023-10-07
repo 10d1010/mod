@@ -32,6 +32,7 @@ public class TestModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(TestModItems.AME.get());
 			tabData.accept(TestModItems.GEM.get());
+			tabData.accept(TestModItems.GEMBRUTE.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
