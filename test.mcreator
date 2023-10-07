@@ -237,6 +237,20 @@
           "src/main/resources/data/test/recipes/ge_marmor_armor_boots_recipe.json"
         ]
       }
+    },
+    {
+      "name": "Cutter",
+      "type": "achievement",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cutter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/advancements/cutter.json"
+        ]
+      },
+      "path": "~/progres"
     }
   ],
   "variable_elements": [],
@@ -266,12 +280,19 @@
       "entity.minecraft.villager.test.chamanv": "Chaman",
       "biome.test.oceant": "Oceant",
       "item.test.gem": "GEM",
-      "item.test.ge_marmor_armor_chestplate": "GEMarmor Chestplate"
+      "item.test.ge_marmor_armor_chestplate": "GEMarmor Chestplate",
+      "advancements.cutter.title": "Cutter",
+      "advancements.cutter.descr": "vers la pierre"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "progres",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "test",

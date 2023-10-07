@@ -13,5 +13,7 @@
   "entity.minecraft.villager.test.chamanv": "Chaman",
   "biome.test.oceant": "Oceant",
   "item.test.gem": "GEM",
-  "item.test.ge_marmor_armor_chestplate": "GEMarmor Chestplate"
+  "item.test.ge_marmor_armor_chestplate": "GEMarmor Chestplate",
+  "advancements.cutter.title": "Cutter",
+  "advancements.cutter.descr": "vers la pierre"
 }
