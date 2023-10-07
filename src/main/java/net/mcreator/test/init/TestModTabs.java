@@ -39,9 +39,5 @@ public class TestModTabs {
 			tabData.accept(TestModItems.AQUA.get());
 			tabData.accept(TestModItems.CUTSTON.get());
 		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
-			tabData.accept(TestModItems.BURGER.get());
-		}
 	}
 }

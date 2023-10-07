@@ -267,16 +267,16 @@
       "path": "~/progres"
     },
     {
-      "name": "Burger",
-      "type": "item",
+      "name": "Test",
+      "type": "livingentity",
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "burger",
+      "registry_name": "test",
       "metadata": {
         "files": [
-          "src/main/resources/assets/test/models/item/burger.json",
-          "src/main/java/net/mcreator/test/item/BurgerItem.java"
+          "src/main/java/net/mcreator/test/entity/TestEntity.java",
+          "src/main/java/net/mcreator/test/client/renderer/TestRenderer.java"
         ]
       }
     }
@@ -295,7 +295,6 @@
   "language_map": {
     "en_us": {
       "advancements.gems.title": "Gem",
-      "item.test.burger": "Burger",
       "item.test.ge_marmor_armor_helmet": "GEMarmor Helmet",
       "item.test.ame": "Ame",
       "subtitles.onepiece": "One",
@@ -310,6 +309,7 @@
       "entity.minecraft.villager.test.chamanv": "Chaman",
       "biome.test.oceant": "Oceant",
       "item.test.gem": "GEM",
+      "entity.test.test": "enderfish",
       "item.test.ge_marmor_armor_chestplate": "GEMarmor Chestplate",
       "advancements.gems.descr": "découverte d\u0027une gem",
       "advancements.cutter.title": "Cutter",
