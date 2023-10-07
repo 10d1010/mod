@@ -10,11 +10,13 @@ import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.test.client.renderer.TestRenderer;
+import net.mcreator.test.client.renderer.FirefishRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class TestModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(TestModEntities.TEST.get(), TestRenderer::new);
+		event.registerEntityRenderer(TestModEntities.FIREFISH.get(), FirefishRenderer::new);
 	}
 }

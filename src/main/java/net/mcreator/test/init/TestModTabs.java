@@ -29,6 +29,10 @@ public class TestModTabs {
 			tabData.accept(TestModItems.GE_MARMOR_ARMOR_BOOTS.get());
 		}
 
+		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(TestModItems.FIREFISH_SPAWN_EGG.get());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(TestModItems.AME.get());
 			tabData.accept(TestModItems.GEM.get());

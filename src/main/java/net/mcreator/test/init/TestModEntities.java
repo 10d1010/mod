@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.test.entity.TestEntity;
+import net.mcreator.test.entity.FirefishEntity;
 import net.mcreator.test.TestMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -24,6 +25,10 @@ public class TestModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, TestMod.MODID);
 	public static final RegistryObject<EntityType<TestEntity>> TEST = register("test",
 			EntityType.Builder.<TestEntity>of(TestEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TestEntity::new)
+
+					.sized(0.4f, 0.3f));
+	public static final RegistryObject<EntityType<FirefishEntity>> FIREFISH = register("firefish",
+			EntityType.Builder.<FirefishEntity>of(FirefishEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FirefishEntity::new)
 
 					.sized(0.4f, 0.3f));
 
@@ -35,11 +40,13 @@ public class TestModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			TestEntity.init();
+			FirefishEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(TEST.get(), TestEntity.createAttributes().build());
+		event.put(FIREFISH.get(), FirefishEntity.createAttributes().build());
 	}
 }

@@ -308,6 +308,22 @@
           "src/main/java/net/mcreator/test/client/gui/EnderfishScreen.java"
         ]
       }
+    },
+    {
+      "name": "Firefish",
+      "type": "livingentity",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firefish",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/forge/biome_modifier/firefish_biome_modifier.json",
+          "src/main/java/net/mcreator/test/entity/FirefishEntity.java",
+          "src/main/java/net/mcreator/test/client/renderer/FirefishRenderer.java",
+          "src/main/resources/assets/test/models/item/firefish_spawn_egg.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -335,8 +351,10 @@
       "block.test.blockaqua": "Blockaqua",
       "item.test.ge_marmor_armor_leggings": "GEMarmor Leggings",
       "advancements.chaman.descr": "Une âme récolter ",
+      "entity.test.firefish": "Firefish",
       "item.test.aqua": "Aqua Portal Igniter",
       "entity.minecraft.villager.test.chamanv": "Chaman",
+      "item.test.firefish_spawn_egg": "Firefish Spawn Egg",
       "biome.test.oceant": "Oceant",
       "item.test.gem": "GEM",
       "entity.test.test": "enderfish",

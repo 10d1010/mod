@@ -7,6 +7,7 @@ package net.mcreator.test.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -34,6 +35,7 @@ public class TestModItems {
 	public static final RegistryObject<Item> GE_MARMOR_ARMOR_LEGGINGS = REGISTRY.register("ge_marmor_armor_leggings", () -> new GEMarmorArmorItem.Leggings());
 	public static final RegistryObject<Item> GE_MARMOR_ARMOR_BOOTS = REGISTRY.register("ge_marmor_armor_boots", () -> new GEMarmorArmorItem.Boots());
 	public static final RegistryObject<Item> BURGER = REGISTRY.register("burger", () -> new BurgerItem());
+	public static final RegistryObject<Item> FIREFISH_SPAWN_EGG = REGISTRY.register("firefish_spawn_egg", () -> new ForgeSpawnEggItem(TestModEntities.FIREFISH, -718069, -1342704, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
