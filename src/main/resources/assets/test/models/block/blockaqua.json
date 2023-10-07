@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "test:block/aquab",
+    "up": "test:block/aquab",
+    "north": "test:block/aquab",
+    "east": "test:block/aquab",
+    "south": "test:block/aquab",
+    "west": "test:block/aquab",
+    "particle": "test:block/aquab"
+  },
+  "render_type": "solid"
+}

@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.test.init.TestModTabs;
 import net.mcreator.test.init.TestModItems;
+import net.mcreator.test.init.TestModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -49,6 +50,8 @@ public class TestMod {
 	public TestMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		TestModBlocks.REGISTRY.register(bus);
 
 		TestModItems.REGISTRY.register(bus);
 

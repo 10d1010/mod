@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "test:block/aqua_portal_ew"
+    },
+    "axis=x": {
+      "model": "test:block/aqua_portal_ns"
+    }
+  }
+}

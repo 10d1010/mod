@@ -26,14 +26,69 @@
           "src/main/resources/data/test/advancements/chaman.json"
         ]
       }
+    },
+    {
+      "name": "Blockaqua",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockaqua",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/models/item/blockaqua.json",
+          "src/main/resources/assets/test/blockstates/blockaqua.json",
+          "src/main/java/net/mcreator/test/block/BlockaquaBlock.java",
+          "src/main/resources/assets/test/models/block/blockaqua.json"
+        ]
+      }
+    },
+    {
+      "name": "Oceant",
+      "type": "biome",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oceant",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/worldgen/biome/oceant.json"
+        ]
+      }
+    },
+    {
+      "name": "Aqua",
+      "type": "dimension",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aqua",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/world/teleporter/AquaPortalShape.java",
+          "src/main/java/net/mcreator/test/block/AquaPortalBlock.java",
+          "src/main/resources/data/test/dimension/aqua.json",
+          "src/main/resources/assets/test/blockstates/aqua_portal.json",
+          "src/main/resources/assets/test/models/block/aqua_portal_ns.json",
+          "src/main/java/net/mcreator/test/world/dimension/AquaDimension.java",
+          "src/main/java/net/mcreator/test/world/teleporter/AquaTeleporter.java",
+          "src/main/resources/assets/test/models/block/aqua_portal_ew.json",
+          "src/main/java/net/mcreator/test/item/AquaItem.java",
+          "src/main/resources/assets/test/models/item/aqua.json",
+          "src/main/resources/data/test/dimension_type/aqua.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.test.aqua": "Aqua Portal Igniter",
+      "biome.test.oceant": "Oceant",
       "item.test.ame": "Ame",
       "advancements.chaman.title": "Chaman",
+      "block.test.blockaqua": "Blockaqua",
       "advancements.chaman.descr": "Une âme récolter "
     }
   },
