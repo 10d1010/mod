@@ -276,6 +276,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/test/entity/TestEntity.java",
+          "src/main/resources/assets/test/models/item/test_spawn_egg.json",
           "src/main/java/net/mcreator/test/client/renderer/TestRenderer.java"
         ]
       }
@@ -357,8 +358,8 @@
     "en_us": {
       "advancements.gems.title": "Gem",
       "item.test.test_spawn_egg": "enderfish Spawn Egg",
-      "item.test.ame": "Ame",
       "subtitles.onepiece": "One",
+      "item.test.ame": "Ame",
       "item.test.ge_marmor_armor_boots": "GEMarmor Boots",
       "item.test.gembrute": "Gembrute",
       "item.test.ge_marmor_armor_leggings": "GEMarmor Leggings",
