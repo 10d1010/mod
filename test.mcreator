@@ -3,6 +3,7 @@
     {
       "name": "Ame",
       "type": "item",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ame",
@@ -12,13 +13,28 @@
           "src/main/resources/assets/test/models/item/ame.json"
         ]
       }
+    },
+    {
+      "name": "Chaman",
+      "type": "achievement",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaman",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/advancements/chaman.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.test.ame": "Ame"
+      "item.test.ame": "Ame",
+      "advancements.chaman.title": "Chaman",
+      "advancements.chaman.descr": "Une âme récolter "
     }
   },
   "foldersRoot": {
