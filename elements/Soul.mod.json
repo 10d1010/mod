@@ -25,6 +25,24 @@
             "maxTrades": 128,
             "xp": 1,
             "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Oeufdetst"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "Blocks.EMERALD_BLOCK"
+            },
+            "countPrice2": 30,
+            "offer": {
+              "value": "CUSTOM:Test.spawn_egg"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
           }
         ]
       }

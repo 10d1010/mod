@@ -30,7 +30,9 @@ public class TestModTabs {
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(TestModItems.TEST_SPAWN_EGG.get());
 			tabData.accept(TestModItems.FIREFISH_SPAWN_EGG.get());
+			tabData.accept(TestModBlocks.OEUFDETST.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {

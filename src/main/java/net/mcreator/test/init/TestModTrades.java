@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.village.VillagerTradesEvent;
 import net.minecraftforge.common.BasicItemListing;
 
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 
@@ -20,6 +21,7 @@ public class TestModTrades {
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(TestModItems.AME.get(), 10),
 
 					new ItemStack(Items.EMERALD), 128, 1, 0.05f));
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(TestModBlocks.OEUFDETST.get()), new ItemStack(Blocks.EMERALD_BLOCK, 30), new ItemStack(TestModItems.TEST_SPAWN_EGG.get()), 10, 5, 0.05f));
 		}
 	}
 }

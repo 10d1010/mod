@@ -324,6 +324,22 @@
           "src/main/resources/assets/test/models/item/firefish_spawn_egg.json"
         ]
       }
+    },
+    {
+      "name": "Oeufdetst",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oeufdetst",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/block/OeufdetstBlock.java",
+          "src/main/resources/assets/test/blockstates/oeufdetst.json",
+          "src/main/resources/assets/test/models/block/oeufdetst.json",
+          "src/main/resources/assets/test/models/item/oeufdetst.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -340,28 +356,30 @@
   "language_map": {
     "en_us": {
       "advancements.gems.title": "Gem",
-      "item.test.burger": "Burger",
-      "item.test.ge_marmor_armor_helmet": "GEMarmor Helmet",
+      "item.test.test_spawn_egg": "enderfish Spawn Egg",
       "item.test.ame": "Ame",
       "subtitles.onepiece": "One",
-      "advancements.chaman.title": "Chaman",
       "item.test.ge_marmor_armor_boots": "GEMarmor Boots",
-      "item.test.cutston": "Cutston",
       "item.test.gembrute": "Gembrute",
-      "block.test.blockaqua": "Blockaqua",
       "item.test.ge_marmor_armor_leggings": "GEMarmor Leggings",
-      "advancements.chaman.descr": "Une âme récolter ",
-      "entity.test.firefish": "Firefish",
       "item.test.aqua": "Aqua Portal Igniter",
-      "entity.minecraft.villager.test.chamanv": "Chaman",
-      "item.test.firefish_spawn_egg": "Firefish Spawn Egg",
       "biome.test.oceant": "Oceant",
-      "item.test.gem": "GEM",
-      "entity.test.test": "enderfish",
-      "item.test.ge_marmor_armor_chestplate": "GEMarmor Chestplate",
       "advancements.gems.descr": "découverte d\u0027une gem",
       "advancements.cutter.title": "Cutter",
-      "advancements.cutter.descr": "vers la pierre"
+      "advancements.cutter.descr": "vers la pierre",
+      "item.test.burger": "Burger",
+      "item.test.ge_marmor_armor_helmet": "GEMarmor Helmet",
+      "advancements.chaman.title": "Chaman",
+      "item.test.cutston": "Cutston",
+      "block.test.blockaqua": "Blockaqua",
+      "block.test.oeufdetst": "Oeufdetst",
+      "advancements.chaman.descr": "Une âme récolter ",
+      "entity.test.firefish": "Firefish",
+      "entity.minecraft.villager.test.chamanv": "Chaman",
+      "item.test.firefish_spawn_egg": "Firefish Spawn Egg",
+      "item.test.gem": "GEM",
+      "entity.test.test": "enderfish",
+      "item.test.ge_marmor_armor_chestplate": "GEMarmor Chestplate"
     }
   },
   "foldersRoot": {

@@ -34,8 +34,10 @@ public class TestModItems {
 	public static final RegistryObject<Item> GE_MARMOR_ARMOR_CHESTPLATE = REGISTRY.register("ge_marmor_armor_chestplate", () -> new GEMarmorArmorItem.Chestplate());
 	public static final RegistryObject<Item> GE_MARMOR_ARMOR_LEGGINGS = REGISTRY.register("ge_marmor_armor_leggings", () -> new GEMarmorArmorItem.Leggings());
 	public static final RegistryObject<Item> GE_MARMOR_ARMOR_BOOTS = REGISTRY.register("ge_marmor_armor_boots", () -> new GEMarmorArmorItem.Boots());
+	public static final RegistryObject<Item> TEST_SPAWN_EGG = REGISTRY.register("test_spawn_egg", () -> new ForgeSpawnEggItem(TestModEntities.TEST, -65281, -16777216, new Item.Properties()));
 	public static final RegistryObject<Item> BURGER = REGISTRY.register("burger", () -> new BurgerItem());
 	public static final RegistryObject<Item> FIREFISH_SPAWN_EGG = REGISTRY.register("firefish_spawn_egg", () -> new ForgeSpawnEggItem(TestModEntities.FIREFISH, -718069, -1342704, new Item.Properties()));
+	public static final RegistryObject<Item> OEUFDETST = block(TestModBlocks.OEUFDETST);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -1,0 +1,9 @@
+{
+  "parent": "test:custom/oeuf",
+  "textures": {
+    "all": "test:block/textureoeuf",
+    "particle": "test:block/textureoeuf",
+    "7": "test:block/textureoeuf"
+  },
+  "render_type": "solid"
+}

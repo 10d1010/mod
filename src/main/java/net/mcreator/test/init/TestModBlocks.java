@@ -14,6 +14,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.test.block.OeufdetstBlock;
 import net.mcreator.test.block.BlockaquaBlock;
 import net.mcreator.test.block.AquaPortalBlock;
 import net.mcreator.test.TestMod;
@@ -22,17 +23,20 @@ public class TestModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, TestMod.MODID);
 	public static final RegistryObject<Block> BLOCKAQUA = REGISTRY.register("blockaqua", () -> new BlockaquaBlock());
 	public static final RegistryObject<Block> AQUA_PORTAL = REGISTRY.register("aqua_portal", () -> new AquaPortalBlock());
+	public static final RegistryObject<Block> OEUFDETST = REGISTRY.register("oeufdetst", () -> new OeufdetstBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
 			BlockaquaBlock.blockColorLoad(event);
+			OeufdetstBlock.blockColorLoad(event);
 		}
 
 		@SubscribeEvent
 		public static void itemColorLoad(RegisterColorHandlersEvent.Item event) {
 			BlockaquaBlock.itemColorLoad(event);
+			OeufdetstBlock.itemColorLoad(event);
 		}
 	}
 }
