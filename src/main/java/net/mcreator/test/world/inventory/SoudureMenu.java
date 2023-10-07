@@ -25,7 +25,7 @@ import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
-public class EnderfishMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
+public class SoudureMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
 	public final Player entity;
@@ -38,11 +38,11 @@ public class EnderfishMenu extends AbstractContainerMenu implements Supplier<Map
 	private Entity boundEntity = null;
 	private BlockEntity boundBlockEntity = null;
 
-	public EnderfishMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(TestModMenus.ENDERFISH.get(), id);
+	public SoudureMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
+		super(TestModMenus.SOUDURE.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
-		this.internal = new ItemStackHandler(1);
+		this.internal = new ItemStackHandler(3);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -77,8 +77,19 @@ public class EnderfishMenu extends AbstractContainerMenu implements Supplier<Map
 					});
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 151, 8) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 8) {
 			private final int slot = 0;
+		}));
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 7, 44) {
+			private final int slot = 1;
+		}));
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 115, 26) {
+			private final int slot = 2;
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return false;
+			}
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
@@ -107,16 +118,16 @@ public class EnderfishMenu extends AbstractContainerMenu implements Supplier<Map
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 1) {
-				if (!this.moveItemStackTo(itemstack1, 1, this.slots.size(), true))
+			if (index < 3) {
+				if (!this.moveItemStackTo(itemstack1, 3, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 1, false)) {
-				if (index < 1 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 1 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 3, false)) {
+				if (index < 3 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 3 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 1, 1 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 3, 3 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;

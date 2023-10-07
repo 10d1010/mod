@@ -8,19 +8,19 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.GuiGraphics;
 
-import net.mcreator.test.world.inventory.EnderfishMenu;
+import net.mcreator.test.world.inventory.SoudureMenu;
 
 import java.util.HashMap;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 
-public class EnderfishScreen extends AbstractContainerScreen<EnderfishMenu> {
-	private final static HashMap<String, Object> guistate = EnderfishMenu.guistate;
+public class SoudureScreen extends AbstractContainerScreen<SoudureMenu> {
+	private final static HashMap<String, Object> guistate = SoudureMenu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
 
-	public EnderfishScreen(EnderfishMenu container, Inventory inventory, Component text) {
+	public SoudureScreen(SoudureMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -31,7 +31,7 @@ public class EnderfishScreen extends AbstractContainerScreen<EnderfishMenu> {
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("test:textures/screens/enderfish.png");
+	private static final ResourceLocation texture = new ResourceLocation("test:textures/screens/soudure.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
@@ -65,7 +65,6 @@ public class EnderfishScreen extends AbstractContainerScreen<EnderfishMenu> {
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.test.enderfish.label_end"), 6, 7, -3862839, false);
 	}
 
 	@Override

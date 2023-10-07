@@ -14,7 +14,11 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.test.block.SoudeurBlock;
 import net.mcreator.test.block.OeufdetstBlock;
+import net.mcreator.test.block.GemoreBlock;
+import net.mcreator.test.block.BraiseLogBlock;
+import net.mcreator.test.block.BraiseLeavesBlock;
 import net.mcreator.test.block.BlockaquaBlock;
 import net.mcreator.test.block.AquaPortalBlock;
 import net.mcreator.test.TestMod;
@@ -24,6 +28,10 @@ public class TestModBlocks {
 	public static final RegistryObject<Block> BLOCKAQUA = REGISTRY.register("blockaqua", () -> new BlockaquaBlock());
 	public static final RegistryObject<Block> AQUA_PORTAL = REGISTRY.register("aqua_portal", () -> new AquaPortalBlock());
 	public static final RegistryObject<Block> OEUFDETST = REGISTRY.register("oeufdetst", () -> new OeufdetstBlock());
+	public static final RegistryObject<Block> BRAISE_LOG = REGISTRY.register("braise_log", () -> new BraiseLogBlock());
+	public static final RegistryObject<Block> BRAISE_LEAVES = REGISTRY.register("braise_leaves", () -> new BraiseLeavesBlock());
+	public static final RegistryObject<Block> GEMORE = REGISTRY.register("gemore", () -> new GemoreBlock());
+	public static final RegistryObject<Block> SOUDEUR = REGISTRY.register("soudeur", () -> new SoudeurBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

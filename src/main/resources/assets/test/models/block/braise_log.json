@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "test:block/braise_log_top",
+    "up": "test:block/braise_log_top",
+    "north": "test:block/braise_log_side",
+    "east": "test:block/braise_log_side",
+    "south": "test:block/braise_log_side",
+    "west": "test:block/braise_log_side",
+    "particle": "test:block/braise_log_top"
+  },
+  "render_type": "solid"
+}

@@ -341,6 +341,102 @@
           "src/main/resources/assets/test/models/item/oeufdetst.json"
         ]
       }
+    },
+    {
+      "name": "BraiseLog",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "braise_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/models/block/braise_log.json",
+          "src/main/resources/assets/test/models/item/braise_log.json",
+          "src/main/resources/assets/test/blockstates/braise_log.json",
+          "src/main/java/net/mcreator/test/block/BraiseLogBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BraiseLeaves",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "braise_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/models/item/braise_leaves.json",
+          "src/main/resources/assets/test/blockstates/braise_leaves.json",
+          "src/main/resources/assets/test/models/block/braise_leaves.json",
+          "src/main/java/net/mcreator/test/block/BraiseLeavesBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Boisdebraise",
+      "type": "biome",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boisdebraise",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/worldgen/configured_feature/boisdebraise_tree.json",
+          "src/main/resources/data/test/worldgen/placed_feature/boisdebraise_tree.json",
+          "src/main/resources/data/test/worldgen/biome/boisdebraise.json"
+        ]
+      }
+    },
+    {
+      "name": "Gemore",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gemore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/blockstates/gemore.json",
+          "src/main/resources/assets/test/models/item/gemore.json",
+          "src/main/java/net/mcreator/test/block/GemoreBlock.java",
+          "src/main/resources/assets/test/models/block/gemore.json"
+        ]
+      }
+    },
+    {
+      "name": "Soudeur",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soudeur",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/models/item/soudeur.json",
+          "src/main/resources/assets/test/models/block/soudeur.json",
+          "src/main/resources/assets/test/blockstates/soudeur.json",
+          "src/main/java/net/mcreator/test/block/SoudeurBlock.java",
+          "src/main/java/net/mcreator/test/block/entity/SoudeurBlockEntity.java"
+        ]
+      },
+      "path": "~/machinedesoudure"
+    },
+    {
+      "name": "Soudure",
+      "type": "gui",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soudure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/client/gui/SoudureScreen.java",
+          "src/main/java/net/mcreator/test/world/inventory/SoudureMenu.java"
+        ]
+      },
+      "path": "~/machinedesoudure"
     }
   ],
   "variable_elements": [],
@@ -358,11 +454,13 @@
     "en_us": {
       "advancements.gems.title": "Gem",
       "item.test.test_spawn_egg": "enderfish Spawn Egg",
-      "subtitles.onepiece": "One",
+      "block.test.gemore": "Gemore",
       "item.test.ame": "Ame",
+      "subtitles.onepiece": "One",
       "item.test.ge_marmor_armor_boots": "GEMarmor Boots",
       "item.test.gembrute": "Gembrute",
       "item.test.ge_marmor_armor_leggings": "GEMarmor Leggings",
+      "block.test.braise_log": "Braise Log",
       "item.test.aqua": "Aqua Portal Igniter",
       "biome.test.oceant": "Oceant",
       "advancements.gems.descr": "découverte d\u0027une gem",
@@ -370,6 +468,7 @@
       "advancements.cutter.descr": "vers la pierre",
       "item.test.burger": "Burger",
       "item.test.ge_marmor_armor_helmet": "GEMarmor Helmet",
+      "block.test.soudeur": "Soudeur",
       "advancements.chaman.title": "Chaman",
       "item.test.cutston": "Cutston",
       "block.test.blockaqua": "Blockaqua",
@@ -378,9 +477,12 @@
       "entity.test.firefish": "Firefish",
       "entity.minecraft.villager.test.chamanv": "Chaman",
       "item.test.firefish_spawn_egg": "Firefish Spawn Egg",
+      "gui.test.enderfish.label_end": "END",
       "item.test.gem": "GEM",
       "entity.test.test": "enderfish",
-      "item.test.ge_marmor_armor_chestplate": "GEMarmor Chestplate"
+      "biome.test.boisdebraise": "Boisdebraise",
+      "item.test.ge_marmor_armor_chestplate": "GEMarmor Chestplate",
+      "block.test.braise_leaves": "Braise Leaves"
     }
   },
   "foldersRoot": {
@@ -392,6 +494,10 @@
       },
       {
         "name": "Food",
+        "children": []
+      },
+      {
+        "name": "machinedesoudure",
         "children": []
       }
     ]

@@ -38,6 +38,10 @@ public class TestModItems {
 	public static final RegistryObject<Item> BURGER = REGISTRY.register("burger", () -> new BurgerItem());
 	public static final RegistryObject<Item> FIREFISH_SPAWN_EGG = REGISTRY.register("firefish_spawn_egg", () -> new ForgeSpawnEggItem(TestModEntities.FIREFISH, -718069, -1342704, new Item.Properties()));
 	public static final RegistryObject<Item> OEUFDETST = block(TestModBlocks.OEUFDETST);
+	public static final RegistryObject<Item> BRAISE_LOG = block(TestModBlocks.BRAISE_LOG);
+	public static final RegistryObject<Item> BRAISE_LEAVES = block(TestModBlocks.BRAISE_LEAVES);
+	public static final RegistryObject<Item> GEMORE = block(TestModBlocks.GEMORE);
+	public static final RegistryObject<Item> SOUDEUR = block(TestModBlocks.SOUDEUR);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

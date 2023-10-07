@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "test:block/braise_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "test:block/braise_log"
+    },
+    "axis=z": {
+      "model": "test:block/braise_log",
+      "x": 90
+    }
+  }
+}

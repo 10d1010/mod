@@ -49,5 +49,10 @@ public class TestModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(TestModItems.BURGER.get());
 		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(TestModBlocks.BRAISE_LEAVES.get().asItem());
+			tabData.accept(TestModBlocks.GEMORE.get().asItem());
+		}
 	}
 }

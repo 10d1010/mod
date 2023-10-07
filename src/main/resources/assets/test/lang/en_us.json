@@ -1,11 +1,13 @@
 {
   "advancements.gems.title": "Gem",
   "item.test.test_spawn_egg": "enderfish Spawn Egg",
-  "subtitles.onepiece": "One",
+  "block.test.gemore": "Gemore",
   "item.test.ame": "Ame",
+  "subtitles.onepiece": "One",
   "item.test.ge_marmor_armor_boots": "GEMarmor Boots",
   "item.test.gembrute": "Gembrute",
   "item.test.ge_marmor_armor_leggings": "GEMarmor Leggings",
+  "block.test.braise_log": "Braise Log",
   "item.test.aqua": "Aqua Portal Igniter",
   "biome.test.oceant": "Oceant",
   "advancements.gems.descr": "découverte d\u0027une gem",
@@ -13,6 +15,7 @@
   "advancements.cutter.descr": "vers la pierre",
   "item.test.burger": "Burger",
   "item.test.ge_marmor_armor_helmet": "GEMarmor Helmet",
+  "block.test.soudeur": "Soudeur",
   "advancements.chaman.title": "Chaman",
   "item.test.cutston": "Cutston",
   "block.test.blockaqua": "Blockaqua",
@@ -21,7 +24,10 @@
   "entity.test.firefish": "Firefish",
   "entity.minecraft.villager.test.chamanv": "Chaman",
   "item.test.firefish_spawn_egg": "Firefish Spawn Egg",
+  "gui.test.enderfish.label_end": "END",
   "item.test.gem": "GEM",
   "entity.test.test": "enderfish",
-  "item.test.ge_marmor_armor_chestplate": "GEMarmor Chestplate"
+  "biome.test.boisdebraise": "Boisdebraise",
+  "item.test.ge_marmor_armor_chestplate": "GEMarmor Chestplate",
+  "block.test.braise_leaves": "Braise Leaves"
 }

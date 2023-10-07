@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "test:block/gemore",
+    "up": "test:block/gemore",
+    "north": "test:block/gemore",
+    "east": "test:block/gemore",
+    "south": "test:block/gemore",
+    "west": "test:block/gemore",
+    "particle": "test:block/gemore"
+  },
+  "render_type": "solid"
+}
