@@ -130,13 +130,23 @@
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "onepiece",
+      "files": [
+        "one_piece_op1_we_are_-_johnny_hallyday_ai_cover"
+      ],
+      "category": "music",
+      "subtitle": "One"
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.test.aqua": "Aqua Portal Igniter",
       "entity.minecraft.villager.test.chamanv": "Chaman",
       "biome.test.oceant": "Oceant",
       "item.test.ame": "Ame",
+      "subtitles.onepiece": "One",
       "advancements.chaman.title": "Chaman",
       "item.test.cutston": "Cutston",
       "block.test.blockaqua": "Blockaqua",

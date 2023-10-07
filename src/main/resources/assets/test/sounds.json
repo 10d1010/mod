@@ -1,0 +1,11 @@
+{
+  "onepiece": {
+    "subtitle": "subtitles.onepiece",
+    "sounds": [
+      {
+        "name": "test:one_piece_op1_we_are_-_johnny_hallyday_ai_cover",
+        "stream": true
+      }
+    ]
+  }
+}

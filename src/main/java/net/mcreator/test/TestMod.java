@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.test.init.TestModVillagerProfessions;
 import net.mcreator.test.init.TestModTabs;
+import net.mcreator.test.init.TestModSounds;
 import net.mcreator.test.init.TestModItems;
 import net.mcreator.test.init.TestModBlocks;
 
@@ -51,7 +52,7 @@ public class TestMod {
 	public TestMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		TestModSounds.REGISTRY.register(bus);
 		TestModBlocks.REGISTRY.register(bus);
 
 		TestModItems.REGISTRY.register(bus);
