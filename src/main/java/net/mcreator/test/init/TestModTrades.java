@@ -19,7 +19,7 @@ public class TestModTrades {
 		if (event.getType() == TestModVillagerProfessions.CHAMANV.get()) {
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(TestModItems.AME.get(), 10),
 
-					new ItemStack(Items.EMERALD), 10, 5, 0.05f));
+					new ItemStack(Items.EMERALD), 128, 1, 0.05f));
 		}
 	}
 }
