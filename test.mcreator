@@ -78,6 +78,28 @@
           "src/main/resources/data/test/dimension_type/aqua.json"
         ]
       }
+    },
+    {
+      "name": "Chamanv",
+      "type": "villagerprofession",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chamanv",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Soul",
+      "type": "villagertrade",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -85,6 +107,7 @@
   "language_map": {
     "en_us": {
       "item.test.aqua": "Aqua Portal Igniter",
+      "entity.minecraft.villager.test.chamanv": "Chaman",
       "biome.test.oceant": "Oceant",
       "item.test.ame": "Ame",
       "advancements.chaman.title": "Chaman",

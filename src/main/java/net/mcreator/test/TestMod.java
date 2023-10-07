@@ -29,6 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.test.init.TestModVillagerProfessions;
 import net.mcreator.test.init.TestModTabs;
 import net.mcreator.test.init.TestModItems;
 import net.mcreator.test.init.TestModBlocks;
@@ -56,6 +57,8 @@ public class TestMod {
 		TestModItems.REGISTRY.register(bus);
 
 		TestModTabs.REGISTRY.register(bus);
+
+		TestModVillagerProfessions.PROFESSIONS.register(bus);
 
 	}
 

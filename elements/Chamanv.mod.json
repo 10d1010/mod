@@ -1,0 +1,16 @@
+{
+  "_fv": 47,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Chaman",
+    "pointOfInterest": {
+      "value": "Blocks.SOUL_CAMPFIRE"
+    },
+    "actionSound": {
+      "value": "block.soul_sand.place"
+    },
+    "hat": "None",
+    "professionTextureFile": "new_villager_png_texture_update.png",
+    "zombifiedProfessionTextureFile": "new_villager_png_texture_update.png"
+  }
+}
