@@ -2,13 +2,15 @@
   "advancements.gems.title": "Gem",
   "item.test.test_spawn_egg": "enderfish Spawn Egg",
   "block.test.gemore": "Gemore",
-  "subtitles.onepiece": "One",
   "item.test.ame": "Ame",
+  "subtitles.onepiece": "One",
   "item.test.ge_marmor_armor_boots": "GEMarmor Boots",
   "item.test.gembrute": "Gembrute",
+  "entity.test.roicreeper": "Roicreeper",
   "item.test.ge_marmor_armor_leggings": "GEMarmor Leggings",
   "block.test.braise_log": "Braise Log",
   "item.test.aqua": "Aqua Portal Igniter",
+  "item.test.roicreeper_spawn_egg": "Roicreeper Spawn Egg",
   "biome.test.oceant": "Oceant",
   "advancements.gems.descr": "découverte d\u0027une gem",
   "advancements.cutter.title": "Cutter",
@@ -29,5 +31,6 @@
   "entity.test.test": "enderfish",
   "biome.test.boisdebraise": "Boisdebraise",
   "item.test.ge_marmor_armor_chestplate": "GEMarmor Chestplate",
-  "block.test.braise_leaves": "Braise Leaves"
+  "block.test.braise_leaves": "Braise Leaves",
+  "key.test.v": "V"
 }

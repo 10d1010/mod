@@ -27,12 +27,7 @@
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "test:braise_leaves",
-        "Properties": {
-          "distance": "7",
-          "persistent": "false",
-          "waterlogged": "false"
-        }
+        "Name": "minecraft:air"
       }
     },
     "trunk_placer": {

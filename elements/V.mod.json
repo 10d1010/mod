@@ -1,0 +1,12 @@
+{
+  "_fv": 47,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "V",
+    "keyBindingName": "V",
+    "keyBindingCategoryKey": "movement",
+    "onKeyPressed": {
+      "name": "VToucheEnfoncee"
+    }
+  }
+}

@@ -34,6 +34,7 @@ import net.mcreator.test.init.TestModTabs;
 import net.mcreator.test.init.TestModSounds;
 import net.mcreator.test.init.TestModMenus;
 import net.mcreator.test.init.TestModItems;
+import net.mcreator.test.init.TestModFeatures;
 import net.mcreator.test.init.TestModEntities;
 import net.mcreator.test.init.TestModBlocks;
 import net.mcreator.test.init.TestModBlockEntities;
@@ -62,6 +63,7 @@ public class TestMod {
 		TestModEntities.REGISTRY.register(bus);
 
 		TestModTabs.REGISTRY.register(bus);
+		TestModFeatures.REGISTRY.register(bus);
 
 		TestModVillagerProfessions.PROFESSIONS.register(bus);
 		TestModMenus.REGISTRY.register(bus);

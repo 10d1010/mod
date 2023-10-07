@@ -319,10 +319,10 @@
       "registry_name": "firefish",
       "metadata": {
         "files": [
+          "src/main/resources/assets/test/models/item/firefish_spawn_egg.json",
           "src/main/resources/data/test/forge/biome_modifier/firefish_biome_modifier.json",
           "src/main/java/net/mcreator/test/entity/FirefishEntity.java",
-          "src/main/java/net/mcreator/test/client/renderer/FirefishRenderer.java",
-          "src/main/resources/assets/test/models/item/firefish_spawn_egg.json"
+          "src/main/java/net/mcreator/test/client/renderer/FirefishRenderer.java"
         ]
       }
     },
@@ -399,9 +399,13 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/test/blockstates/gemore.json",
+          "src/main/resources/data/test/forge/biome_modifier/gemore_biome_modifier.json",
           "src/main/resources/assets/test/models/item/gemore.json",
+          "src/main/java/net/mcreator/test/world/features/ores/GemoreFeature.java",
           "src/main/java/net/mcreator/test/block/GemoreBlock.java",
-          "src/main/resources/assets/test/models/block/gemore.json"
+          "src/main/resources/assets/test/models/block/gemore.json",
+          "src/main/resources/data/test/worldgen/configured_feature/gemore.json",
+          "src/main/resources/data/test/worldgen/placed_feature/gemore.json"
         ]
       }
     },
@@ -437,9 +441,78 @@
         ]
       },
       "path": "~/machinedesoudure"
+    },
+    {
+      "name": "VToucheEnfoncee",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_touche_enfoncee",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/VToucheEnfonceeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/pouvoir"
+    },
+    {
+      "name": "V",
+      "type": "keybind",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/network/VMessage.java"
+        ]
+      },
+      "path": "~/pouvoir"
+    },
+    {
+      "name": "Roicreeper",
+      "type": "livingentity",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roicreeper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/entity/RoicreeperEntity.java",
+          "src/main/resources/assets/test/models/item/roicreeper_spawn_egg.json",
+          "src/main/java/net/mcreator/test/client/renderer/RoicreeperRenderer.java"
+        ]
+      },
+      "path": "~/boss"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "mana",
+      "type": "blockstate",
+      "scope": "player_lifetime",
+      "value": "Blocks.AIR.defaultBlockState()"
+    }
+  ],
   "sound_elements": [
     {
       "name": "onepiece",
@@ -455,13 +528,15 @@
       "advancements.gems.title": "Gem",
       "item.test.test_spawn_egg": "enderfish Spawn Egg",
       "block.test.gemore": "Gemore",
-      "subtitles.onepiece": "One",
       "item.test.ame": "Ame",
+      "subtitles.onepiece": "One",
       "item.test.ge_marmor_armor_boots": "GEMarmor Boots",
       "item.test.gembrute": "Gembrute",
+      "entity.test.roicreeper": "Roicreeper",
       "item.test.ge_marmor_armor_leggings": "GEMarmor Leggings",
       "block.test.braise_log": "Braise Log",
       "item.test.aqua": "Aqua Portal Igniter",
+      "item.test.roicreeper_spawn_egg": "Roicreeper Spawn Egg",
       "biome.test.oceant": "Oceant",
       "advancements.gems.descr": "découverte d\u0027une gem",
       "advancements.cutter.title": "Cutter",
@@ -482,7 +557,8 @@
       "entity.test.test": "enderfish",
       "biome.test.boisdebraise": "Boisdebraise",
       "item.test.ge_marmor_armor_chestplate": "GEMarmor Chestplate",
-      "block.test.braise_leaves": "Braise Leaves"
+      "block.test.braise_leaves": "Braise Leaves",
+      "key.test.v": "V"
     }
   },
   "foldersRoot": {
@@ -498,6 +574,14 @@
       },
       {
         "name": "machinedesoudure",
+        "children": []
+      },
+      {
+        "name": "pouvoir",
+        "children": []
+      },
+      {
+        "name": "boss",
         "children": []
       }
     ]

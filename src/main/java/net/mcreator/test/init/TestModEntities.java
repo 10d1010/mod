@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.test.entity.TestEntity;
+import net.mcreator.test.entity.RoicreeperEntity;
 import net.mcreator.test.entity.FirefishEntity;
 import net.mcreator.test.TestMod;
 
@@ -31,6 +32,8 @@ public class TestModEntities {
 			EntityType.Builder.<FirefishEntity>of(FirefishEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FirefishEntity::new)
 
 					.sized(0.4f, 0.3f));
+	public static final RegistryObject<EntityType<RoicreeperEntity>> ROICREEPER = register("roicreeper", EntityType.Builder.<RoicreeperEntity>of(RoicreeperEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+			.setUpdateInterval(3).setCustomClientFactory(RoicreeperEntity::new).fireImmune().sized(0.6f, 1.7f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -41,6 +44,7 @@ public class TestModEntities {
 		event.enqueueWork(() -> {
 			TestEntity.init();
 			FirefishEntity.init();
+			RoicreeperEntity.init();
 		});
 	}
 
@@ -48,5 +52,6 @@ public class TestModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(TEST.get(), TestEntity.createAttributes().build());
 		event.put(FIREFISH.get(), FirefishEntity.createAttributes().build());
+		event.put(ROICREEPER.get(), RoicreeperEntity.createAttributes().build());
 	}
 }

@@ -42,6 +42,7 @@ public class TestModItems {
 	public static final RegistryObject<Item> BRAISE_LEAVES = block(TestModBlocks.BRAISE_LEAVES);
 	public static final RegistryObject<Item> GEMORE = block(TestModBlocks.GEMORE);
 	public static final RegistryObject<Item> SOUDEUR = block(TestModBlocks.SOUDEUR);
+	public static final RegistryObject<Item> ROICREEPER_SPAWN_EGG = REGISTRY.register("roicreeper_spawn_egg", () -> new ForgeSpawnEggItem(TestModEntities.ROICREEPER, -1, -1, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -33,6 +33,7 @@ public class TestModTabs {
 			tabData.accept(TestModItems.TEST_SPAWN_EGG.get());
 			tabData.accept(TestModItems.FIREFISH_SPAWN_EGG.get());
 			tabData.accept(TestModBlocks.OEUFDETST.get().asItem());
+			tabData.accept(TestModItems.ROICREEPER_SPAWN_EGG.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
