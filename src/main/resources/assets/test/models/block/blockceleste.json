@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "test:block/pierreceleste",
+    "up": "test:block/pierreceleste",
+    "north": "test:block/pierreceleste",
+    "east": "test:block/pierreceleste",
+    "south": "test:block/pierreceleste",
+    "west": "test:block/pierreceleste",
+    "particle": "test:block/pierreceleste"
+  },
+  "render_type": "solid"
+}

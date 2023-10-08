@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "test:block/portaile",
+    "up": "test:block/portaile",
+    "north": "test:block/portaile",
+    "east": "test:block/portaile",
+    "south": "test:block/portaile",
+    "west": "test:block/portaile",
+    "particle": "test:block/portaile"
+  },
+  "render_type": "solid"
+}

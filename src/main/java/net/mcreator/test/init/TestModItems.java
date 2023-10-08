@@ -16,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.test.item.GembruteItem;
 import net.mcreator.test.item.GEMarmorArmorItem;
 import net.mcreator.test.item.GEMItem;
+import net.mcreator.test.item.EpeechargerItem;
 import net.mcreator.test.item.CutstonItem;
 import net.mcreator.test.item.BurgerItem;
 import net.mcreator.test.item.AquaItem;
@@ -43,6 +44,9 @@ public class TestModItems {
 	public static final RegistryObject<Item> GEMORE = block(TestModBlocks.GEMORE);
 	public static final RegistryObject<Item> SOUDEUR = block(TestModBlocks.SOUDEUR);
 	public static final RegistryObject<Item> ROICREEPER_SPAWN_EGG = REGISTRY.register("roicreeper_spawn_egg", () -> new ForgeSpawnEggItem(TestModEntities.ROICREEPER, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> BLOCKCELESTE = block(TestModBlocks.BLOCKCELESTE);
+	public static final RegistryObject<Item> PORTAILCELESTE = block(TestModBlocks.PORTAILCELESTE);
+	public static final RegistryObject<Item> EPEECHARGER = REGISTRY.register("epeecharger", () -> new EpeechargerItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

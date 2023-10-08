@@ -15,10 +15,13 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.test.block.SoudeurBlock;
+import net.mcreator.test.block.PortailcelesteBlock;
 import net.mcreator.test.block.OeufdetstBlock;
 import net.mcreator.test.block.GemoreBlock;
+import net.mcreator.test.block.EtherPortalBlock;
 import net.mcreator.test.block.BraiseLogBlock;
 import net.mcreator.test.block.BraiseLeavesBlock;
+import net.mcreator.test.block.BlockcelesteBlock;
 import net.mcreator.test.block.BlockaquaBlock;
 import net.mcreator.test.block.AquaPortalBlock;
 import net.mcreator.test.TestMod;
@@ -32,6 +35,9 @@ public class TestModBlocks {
 	public static final RegistryObject<Block> BRAISE_LEAVES = REGISTRY.register("braise_leaves", () -> new BraiseLeavesBlock());
 	public static final RegistryObject<Block> GEMORE = REGISTRY.register("gemore", () -> new GemoreBlock());
 	public static final RegistryObject<Block> SOUDEUR = REGISTRY.register("soudeur", () -> new SoudeurBlock());
+	public static final RegistryObject<Block> ETHER_PORTAL = REGISTRY.register("ether_portal", () -> new EtherPortalBlock());
+	public static final RegistryObject<Block> BLOCKCELESTE = REGISTRY.register("blockceleste", () -> new BlockcelesteBlock());
+	public static final RegistryObject<Block> PORTAILCELESTE = REGISTRY.register("portailceleste", () -> new PortailcelesteBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

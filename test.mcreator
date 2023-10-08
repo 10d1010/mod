@@ -513,8 +513,14 @@
       "registry_name": "ether",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/test/world/teleporter/EtherTeleporter.java",
+          "src/main/java/net/mcreator/test/world/teleporter/EtherPortalShape.java",
+          "src/main/resources/assets/test/blockstates/ether_portal.json",
+          "src/main/resources/assets/test/models/block/ether_portal_ns.json",
+          "src/main/java/net/mcreator/test/block/EtherPortalBlock.java",
           "src/main/resources/data/test/dimension_type/ether.json",
           "src/main/resources/data/test/dimension/ether.json",
+          "src/main/resources/assets/test/models/block/ether_portal_ew.json",
           "src/main/java/net/mcreator/test/world/dimension/EtherDimension.java"
         ]
       }
@@ -529,6 +535,108 @@
       "metadata": {
         "files": [
           "src/main/resources/data/test/advancements/dimciel.json"
+        ]
+      },
+      "path": "~/progres"
+    },
+    {
+      "name": "Blockceleste",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockceleste",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/models/item/blockceleste.json",
+          "src/main/resources/assets/test/blockstates/blockceleste.json",
+          "src/main/java/net/mcreator/test/block/BlockcelesteBlock.java",
+          "src/main/resources/assets/test/models/block/blockceleste.json"
+        ]
+      },
+      "path": "~/celeste"
+    },
+    {
+      "name": "Celeste",
+      "type": "tab",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celeste",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/celeste"
+    },
+    {
+      "name": "Portailceleste",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portailceleste",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/models/item/portailceleste.json",
+          "src/main/java/net/mcreator/test/block/PortailcelesteBlock.java",
+          "src/main/resources/assets/test/blockstates/portailceleste.json",
+          "src/main/resources/assets/test/models/block/portailceleste.json"
+        ]
+      },
+      "path": "~/celeste"
+    },
+    {
+      "name": "Epeecharger",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epeecharger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/models/item/epeecharger.json",
+          "src/main/java/net/mcreator/test/item/EpeechargerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Pactedesang",
+      "type": "achievement",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pactedesang",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/advancements/pactedesang.json"
+        ]
+      },
+      "path": "~/progres"
+    },
+    {
+      "name": "EpeechargerEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epeecharger_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/EpeechargerEvenementAuClicDroitDansLairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       },
       "path": "~/progres"
@@ -562,13 +670,16 @@
       "item.test.ge_marmor_armor_boots": "GEMarmor Boots",
       "item.test.gembrute": "Gembrute",
       "entity.test.roicreeper": "Roicreeper",
+      "advancements.pactedesang.descr": "faire un pacte de sang",
       "item.test.ge_marmor_armor_leggings": "GEMarmor Leggings",
       "block.test.braise_log": "Braise Log",
       "item.test.aqua": "Aqua Portal Igniter",
       "item.test.roicreeper_spawn_egg": "Roicreeper Spawn Egg",
       "biome.test.oceant": "Oceant",
       "advancements.gems.descr": "découverte d\u0027une gem",
+      "block.test.portailceleste": "Portailceleste",
       "advancements.cutter.title": "Cutter",
+      "item_group.test.celeste": "Celeste",
       "advancements.dimciel.descr": "entrée dans éther",
       "advancements.cutter.descr": "craft un Cutter",
       "advancements.dimciel.title": "éther",
@@ -577,18 +688,21 @@
       "block.test.soudeur": "Soudeur",
       "advancements.chaman.title": "Chaman",
       "item.test.cutston": "Cutston",
+      "advancements.pactedesang.title": "Pactedesang",
       "block.test.blockaqua": "Blockaqua",
       "block.test.oeufdetst": "Oeufdetst",
       "advancements.chaman.descr": "Une âme récolter ",
       "entity.test.firefish": "Firefish",
       "entity.minecraft.villager.test.chamanv": "Chaman",
       "item.test.firefish_spawn_egg": "Firefish Spawn Egg",
+      "item.test.epeecharger": "Epeecharger",
       "gui.test.enderfish.label_end": "END",
       "item.test.gem": "GEM",
       "entity.test.test": "enderfish",
       "biome.test.boisdebraise": "Boisdebraise",
       "item.test.ge_marmor_armor_chestplate": "GEMarmor Chestplate",
       "block.test.braise_leaves": "Braise Leaves",
+      "block.test.blockceleste": "Blockceleste",
       "key.test.v": "V"
     }
   },
@@ -613,6 +727,10 @@
       },
       {
         "name": "boss",
+        "children": []
+      },
+      {
+        "name": "celeste",
         "children": []
       }
     ]
